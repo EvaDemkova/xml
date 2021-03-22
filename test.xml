@@ -1,0 +1,36 @@
+<VAST version="4.0">
+  <Ad id="__SPOTID__" adType="audio">
+    <InLine>
+      <AdSystem>Seznam</AdSystem>
+      <AdTitle><![CDATA[Reklama]]></AdTitle>
+      <Description><![CDATA[Seznam.cz, a.s.]]></Description>
+      <Error><![CDATA[__RICHMEDIA_NOESC__&action=err[ERRORCODE]]]></Error>
+      <Impression><![CDATA[__IMPRESS_NOESC__]]></Impression>
+      <Extensions>
+        <Extension>
+          <Type><![CDATA[ad]]></Type>
+          <Skippable>false</Skippable>
+        <Extension>
+      </Extensions>
+      <Creatives>
+        <Creative adId="__SPOTID__">
+          <UniversalAdId idValue="__SPOTID__">__SPOTID__</UniversalAdId>
+          <Linear>
+            __CREATIVE0__
+            <VideoClicks>
+              <ClickThrough><![CDATA[__SHORT_CLICKTHRU0__]]></ClickThrough>
+            </VideoClicks>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[__RICHMEDIA_NOESC__&type=view]]></Tracking>
+              <Tracking event="start"><![CDATA[__RICHMEDIA_NOESC__&type=start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[__RICHMEDIA_NOESC__&type=Q1]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[__RICHMEDIA_NOESC__&type=Q2]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[__RICHMEDIA_NOESC__&type=Q3]]></Tracking>
+              <Tracking event="complete"><![CDATA[__RICHMEDIA_NOESC__&type=Q4]]></Tracking>
+            </TrackingEvents>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
